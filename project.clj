@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/data.csv "1.0.0"]
                  [clojure.java-time "0.3.2"]
-                 ;[incanter "1.9.3"]
+                 [com.cerner/clara-rules "0.20.0"]
+                 [incanter "1.9.3"]
                  ]
   :main ^:skip-aot clara-timeseries-demo.core
   :target-path "target/%s"
