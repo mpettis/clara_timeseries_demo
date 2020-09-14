@@ -11,3 +11,4 @@
   :main ^:skip-aot clara-timeseries-demo.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
+
